@@ -1,3 +1,8 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "de-ch"
+title = "Meinung, Geist, Verstand, Quelle"
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[params]
+	siteDescription = "Einfach Wissen und News von heute für die aufgeweckte Gesellschaft von morgen."
