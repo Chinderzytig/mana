@@ -1,0 +1,11 @@
+.btn {
+	font-size: 1.8rem;
+	cursor: pointer;
+
+	&--primary {
+		color: #2D3142;
+		border: 2px solid #2D3142;
+		background-color: transparent;
+		padding: 1.25rem;
+	}
+}
