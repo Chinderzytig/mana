@@ -1,0 +1,19 @@
+.btn {
+	font-size: 1.8rem;
+	cursor: pointer;
+
+	&--primary {
+		border: 2px solid #2D3142;
+		background-color: transparent;
+		padding: 1.25rem;
+
+		&:link,
+		&:visited { color: #2D3142; }
+
+		&:hover,
+		&:active {
+			color: #fff;
+			background-color: #2D3142;
+		}
+	}
+}
