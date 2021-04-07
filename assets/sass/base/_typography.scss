@@ -4,15 +4,30 @@ body {
 }
 
 .heading {
-	line-height: 3rem;
+
+	&__container {
+		text-align: center;
+	}
 
 	&__primary {
+		font-size: 4rem;
+		line-height: 4rem;
+		margin-bottom: 3rem;
+	}
+
+	&__secondary {
 		font-size: 3rem;
 		margin-bottom: 2rem;
 	}
 
 	&__tertiary {
 		font-weight: 500;
+
+	}
+
+	&__quaternary {
+		text-transform: uppercase;
+		margin-bottom: 1.25rem;
 
 	}
 }
