@@ -1,0 +1,18 @@
+body {
+	font-size: 1.8rem;
+	line-height: 2.25rem;
+}
+
+.heading {
+	line-height: 3rem;
+
+	&__primary {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	&__tertiary {
+		font-weight: 500;
+
+	}
+}

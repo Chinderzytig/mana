@@ -1,0 +1,29 @@
+companies:
+- website: "http://www.schule-kihe.ch/"
+  logo:
+    - img: "kit-initiative-white_scgjh1.png"
+      desc: "Kit Initiative logo"
+- website: "https://www.schweizermedien.ch/"
+  logo:
+    - img: "bildung-bern-white_qljy7e.png"
+      desc: "Bildung Bern logo"
+- website: "https://www.migros-kulturprozent.ch/"
+  logo:
+    - img: "kulturprozent-logo-white_eku1wm.png"
+      desc: "Migros Kulturprozent logo"
+- website: "https://www.mirroco.ch/"
+  logo:
+    - img: "mirroco-logo-white_qy0ujr.png"
+      desc: "Mirroco/Hazu logo"
+- website: "https://stiftungschweiz.ch//"
+  logo:
+    - img: "stiftung-schweiz-white_x5ghk5.png"
+      desc: "Stiftung Schweiz logo"
+- website: "https://www.phbern.ch/"
+  logo:
+    - img: "PH-Bern-logo-white_c1n0f0.png"
+      desc: "PH Bern logo"
+- website: "https://wikimediafoundation.org/"
+  logo:
+    - img: "Wikimedia-white_yzbugg.png"
+      desc: "Wikimedia Foundation logo"

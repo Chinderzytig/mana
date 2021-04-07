@@ -1,3 +1,38 @@
 {{ define "main" }}
-	{{ .Content }}
+	<header class="hero">
+		<div class="content-container">
+			{{ partial "nav.html" . }}
+			<div class="hero__content">
+				<div class="hero__text">
+					<h1 class="heading heading__primary">
+						News von heute für die aufgeweckte Gesellschaft von morgen.
+					</h1>
+					<h3 class="heading heading__tertiary">
+						Der Verein Mana ist bestrebt schweizweit als Leuchtturm zu strahlen und
+						aufzuzeigen, dass Kinder und Jugendliche durchaus mit den schweren Themen
+						des Alltags, mit denen sie sowieso konfrontiert sind, umgehen können.
+						Wenn man ihnen einen Zugang bietet.
+					</h3>
+				</div>
+				{{ partial "svgs/hero.html" }}
+			</div>
+		</div>
+	</header>
+	<div class="partners">
+		<div class="content-container">
+			<div class="partners__container">
+				{{ range .Site.Data.partners.companies }}
+					<a href="{{ .website }}" target="_blank" class="partners__link">
+						{{ range .logo }}
+							<img srcset="{{ $.Site.Params.cloudinary_url }}/f_auto,h_30,q_auto:good/mana/{{ .img }} 511w"
+							sizes="(min-width: 767px) 35vw, 75vw"
+							src="{{ $.Site.Params.cloudinary_url }}/f_auto,h_50,q_auto:good/mana/{{ .img }}"
+							alt="{{ .desc }}"
+							class="partners__logo">
+						{{ end }}
+					</a>
+				{{ end }}
+			</div>
+		</div>
+	</div>
 {{ end }}
