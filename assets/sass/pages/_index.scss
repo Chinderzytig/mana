@@ -1,12 +1,12 @@
 .hero {
-	height: 100vh;
-	background-color: #EECFD4;
+	height: 90vh;
+	background-color: #FAF0F2;
 
 	&__content {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		padding: 15rem 0;
+		padding: 10rem 0;
 	}
 
 	&__text {
@@ -16,5 +16,13 @@
 }
 
 .partners {
+	height: 10vh;
 	background-color: #2D3142;
+
+	&__container {
+		padding: 3rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
 }

@@ -6,3 +6,4 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
 	siteDescription = "Einfach Wissen und News von heute für die aufgeweckte Gesellschaft von morgen."
+	cloudinary_url = "https://res.cloudinary.com/chinderzytig/image/upload/"

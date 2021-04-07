@@ -18,5 +18,21 @@
 			</div>
 		</div>
 	</header>
-	<div class="partners"></div>
+	<div class="partners">
+		<div class="content-container">
+			<div class="partners__container">
+				{{ range .Site.Data.partners.companies }}
+					<a href="{{ .website }}" target="_blank" class="partners__link">
+						{{ range .logo }}
+							<img srcset="{{ $.Site.Params.cloudinary_url }}/f_auto,h_30,q_auto:good/mana/{{ .img }} 511w"
+							sizes="(min-width: 767px) 35vw, 75vw"
+							src="{{ $.Site.Params.cloudinary_url }}/f_auto,h_50,q_auto:good/mana/{{ .img }}"
+							alt="{{ .desc }}"
+							class="partners__logo">
+						{{ end }}
+					</a>
+				{{ end }}
+			</div>
+		</div>
+	</div>
 {{ end }}
