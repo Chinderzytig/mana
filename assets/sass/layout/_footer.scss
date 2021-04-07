@@ -1,0 +1,12 @@
+.footer {
+	color: #fff;
+	background-color: #2D3142;
+	padding: 5rem 0 3rem 0;
+
+	&__border {
+		height: 1rem;
+		background-image: linear-gradient(to right, #FFCF04, #30AFAA, #EC633F);
+	}
+
+	&__phrase { font-size: 1.2rem; }
+}
