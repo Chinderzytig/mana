@@ -1,0 +1,19 @@
+.nav {
+	padding: 3rem 0;
+
+	&__list {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__link {
+
+		&:link,
+		&:visited {
+			text-decoration: none;
+			color: #000;
+		}
+	}
+}
