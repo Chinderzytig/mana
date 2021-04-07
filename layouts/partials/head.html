@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>Mana | {{ .Page.Title }}</title>
+	<title>Mana | {{if .Page.Title }}{{ .Page.Title}}{{ else }}{{ .Site.Title }}{{ end }}</title>
 	{{ $options := (dict "outputStyle" "compressed") }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
