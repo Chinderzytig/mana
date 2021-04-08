@@ -2,16 +2,20 @@
 	height: 90vh;
 	background-color: #FAF0F2;
 
-	&__content {
+	&__container {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		padding: 10rem 0;
 	}
 
-	&__text {
+	&__content {
 		width: 40%;
-		text-align: justify;
+		text-align: left;
+	}
+
+	&__text {
+		font-size: 1.6rem;
 	}
 }
 

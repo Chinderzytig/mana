@@ -1,9 +1,25 @@
+@font-face {
+		font-family:"Axiforma W00 Regular";
+		src: url("/fonts/5615709/598df90b-08f7-4083-bbec-2009a4d4ecc0.woff2") format("woff2"),url("fonts/5615709/8f9f9637-b5d6-479c-99b6-9dfb12f7072f.woff") format("woff");
+}
+
+/*
+	This CSS resource incorporates links to font software which is the valuable
+	copyrighted property of Monotype and/or its suppliers. You may not attempt to
+	copy, install, redistribute, convert, modify or reverse engineer this font
+	software. Please contact Monotype with any questions regarding Web Fonts:
+	http://www.fontshop.com
+*/
+
 body {
-	font-size: 1.8rem;
-	line-height: 2.25rem;
+	font-family:"Axiforma W00 Regular";
+	font-size: 1.6rem;
+	line-height: 2.75rem;
 }
 
 .heading {
+	font-family: 'Spartan', sans-serif;
+	font-weight: 800;
 
 	&__container {
 		text-align: center;
@@ -11,23 +27,21 @@ body {
 
 	&__primary {
 		font-size: 4rem;
-		line-height: 4rem;
+		line-height: 4.75rem;
 		margin-bottom: 3rem;
 	}
 
 	&__secondary {
+		font-weight: 900;
 		font-size: 3rem;
-		margin-bottom: 2rem;
-	}
-
-	&__tertiary {
-		font-weight: 500;
-
+		margin-bottom: 1.75rem;
 	}
 
 	&__quaternary {
+		font-size: 1.2rem;
+		color: #EC633F;
 		text-transform: uppercase;
-		margin-bottom: 1.25rem;
+		margin-bottom: .5rem;
 
 	}
 }
