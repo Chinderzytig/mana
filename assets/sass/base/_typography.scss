@@ -13,11 +13,13 @@
 
 body {
 	font-family:"Axiforma W00 Regular";
-	font-size: 1.8rem;
-	line-height: 2.25rem;
+	font-size: 1.6rem;
+	line-height: 2.75rem;
 }
 
 .heading {
+	font-family: 'Spartan', sans-serif;
+	font-weight: 800;
 
 	&__container {
 		text-align: center;
@@ -25,23 +27,21 @@ body {
 
 	&__primary {
 		font-size: 4rem;
-		line-height: 4rem;
+		line-height: 4.75rem;
 		margin-bottom: 3rem;
 	}
 
 	&__secondary {
+		font-weight: 900;
 		font-size: 3rem;
-		margin-bottom: 2rem;
-	}
-
-	&__tertiary {
-		font-weight: 500;
-
+		margin-bottom: 1.75rem;
 	}
 
 	&__quaternary {
+		font-size: 1.2rem;
+		color: #EC633F;
 		text-transform: uppercase;
-		margin-bottom: 1.25rem;
+		margin-bottom: .5rem;
 
 	}
 }
