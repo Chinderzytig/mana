@@ -22,7 +22,9 @@ body {
 	font-weight: 800;
 
 	&__container {
-		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	&__primary {
@@ -37,11 +39,22 @@ body {
 		margin-bottom: 1.75rem;
 	}
 
+	&__tertiary {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
 	&__quaternary {
 		font-size: 1.2rem;
 		color: #EC633F;
 		text-transform: uppercase;
 		margin-bottom: .5rem;
 
+	}
+
+	&__sub-text {
+		width: 75%;
+		text-align: center;
+		margin-bottom: 4rem;
 	}
 }
