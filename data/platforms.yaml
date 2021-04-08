@@ -1,29 +1,29 @@
 project:
-  - style: "platforms__card"
+  - style:
     svg: "svgs/chinder-card.html"
     title: "Der Ursprung und das Jetzt: chinderzytig.ch"
     text: |
       Aktuell agieren wir auf der Plattform www.chinderzytig.ch und
       veröffentlichen drei Artikel und zwei Arbeitsmaterialien wöchentlich.
       Die Ziele entsprechen der Weiterentwicklung.
-  - style: "platforms__card--reverse"
+  - style: "--reverse"
     svg: "svgs/chinder-card.html"
     title: "Die Weiterentwicklung der «Chinderzytig» und der «Jugendzytig»"
     text: |
       So soll analog zur «Chinderzytig» die Mana-Kinderzeitung entstehen, die
       sich auf die Themen- und Sprachwelt von Kindern zwischen acht bis zehn
       Jahren fokussiert. Die Mana-Zeitung hingegen nimmt den Gedanken der
-      «Jugendzytig» wieder auf, bringt differenziertere, schwierigere Themen in\
+      «Jugendzytig» wieder auf, bringt differenziertere, schwierigere Themen in
       einer Sprache auf Niveau ab B1 für Jugendliche und (fremdsprachige)
       Erwachsene.
-  - style: "platforms__card"
+  - style:
     svg: "svgs/chinder-card.html"
     title: "Arbeitsmaterial und Unterrichtseinheiten"
     text: |
       Die Zeitungen werden überdies ergänzt mit Arbeitsmaterial und
       Unterrichtseinheiten, die von Lehrpersonen erstellt werden und garantiert
       Lehrplan21-kompatibel sind.
-  - style: "platforms__card--reverse"
+  - style: "--reverse"
     svg: "svgs/chinder-card.html"
     title: "Die Wissensdatenbank"
     text: |

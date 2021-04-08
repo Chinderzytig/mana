@@ -1,7 +1,7 @@
 .platforms {
 
 	&__card {
-		border: 2px solid #2D3142;
+		border: 2px solid rgba(7, 51, 47, 0.1);
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -15,9 +15,7 @@
 	}
 
 	&__content {
-		color: #fff;
-		background-color: #2D3142;
-		border-left: 2px solid #2D3142;
+		background-color: rgba(7, 51, 47, 0.1);
 		padding: 4rem;
 	}
 }
