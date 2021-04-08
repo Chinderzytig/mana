@@ -1,4 +1,18 @@
+@font-face {
+		font-family:"Axiforma W00 Regular";
+		src: url("/fonts/5615709/598df90b-08f7-4083-bbec-2009a4d4ecc0.woff2") format("woff2"),url("fonts/5615709/8f9f9637-b5d6-479c-99b6-9dfb12f7072f.woff") format("woff");
+}
+
+/*
+	This CSS resource incorporates links to font software which is the valuable
+	copyrighted property of Monotype and/or its suppliers. You may not attempt to
+	copy, install, redistribute, convert, modify or reverse engineer this font
+	software. Please contact Monotype with any questions regarding Web Fonts:
+	http://www.fontshop.com
+*/
+
 body {
+	font-family:"Axiforma W00 Regular";
 	font-size: 1.8rem;
 	line-height: 2.25rem;
 }
