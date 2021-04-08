@@ -10,19 +10,17 @@
 			</p>
 		</div>
 		<div class="platforms__container">
-			<div class="platforms__card">
-				<div class="platforms__img">
-					{{ partial "svgs/chinder-card.html" . }}
+			{{ range .Site.Data.platforms.project }}
+				<div class="platforms__card">
+					<div class="platforms__img">
+						{{ partial .svg . }}
+					</div>
+					<div class="platforms__content">
+						<h3 class="heading heading__tertiary">{{ .title }}</h3>
+						<p class="platforms__text">{{ .text }}</p>
+					</div>
 				</div>
-				<div class="platforms__content">
-					<h3 class="heading heading__tertiary">Der Ursprung und das Jetzt: chinderzytig.ch</h3>
-					<p class="platforms__text">
-						Aktuell agieren wir auf der Plattform www.chinderzytig.ch und
-						veröffentlichen drei Artikel und zwei Arbeitsmaterialien wöchentlich.
-						Die Ziele entsprechen der Weiterentwicklung.
-					</p>
-				</div>
-			</div>
+			{{ end }}
 		</div>
 	</div>
 </section>

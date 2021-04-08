@@ -5,9 +5,8 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-	}
 
-	&__img {
+		&:not(:last-child) { margin-bottom: 3rem; }
 	}
 
 	&__content {
