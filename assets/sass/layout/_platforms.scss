@@ -1,17 +1,23 @@
 .platforms {
 
-	&__card {
-		border: 2px solid rgba(7, 51, 47, 0.1);
+	&__container {
 		display: flex;
-		justify-content: space-around;
-		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
 
-		&--reverse {
-			@extend .platforms__card;
-			flex-direction: row-reverse;
-		}
+	}
+
+	&__card {
+		flex: 0 0 45%;
+		display: flex;
+		flex-direction: column;
 
 		&:not(:last-child) { margin-bottom: 3rem; }
+	}
+
+	&__img {
+		border: 2px solid rgba(7, 51, 47, 0.1);
+		padding: 3rem;
 	}
 
 	&__content {
