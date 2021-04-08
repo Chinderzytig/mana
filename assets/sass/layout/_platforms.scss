@@ -6,6 +6,11 @@
 		justify-content: space-around;
 		align-items: center;
 
+		&--reverse {
+			@extend .platforms__card;
+			flex-direction: row-reverse;
+		}
+
 		&:not(:last-child) { margin-bottom: 3rem; }
 	}
 
