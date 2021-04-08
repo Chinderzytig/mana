@@ -8,21 +8,27 @@
 			</p>
 		</div>
 		<form name="kontakt" method="post" netlify-honeypot="bot-field" data-netlify="true" class="kontakt__form">
-			<div class="kontakt__item">
-				<label for="anrede" class="kontakt__label">Anrede</label>
-				<input type="text" name="anrede" placeholder="Anrede" id="anrede" class="kontakt__field">
-			</div>
-			<div class="kontakt__item">
-				<label for="name" class="kontakt__label">Name*</label>
-				<input type="text" name="name" placeholder="Name*" id="name" class="kontakt__field" required>
-			</div>
-			<div class="kontakt__item">
-				<label for="email" class="kontakt__label">E-Mail*</label>
-				<input type="email" name="email" placeholder="E-Mail*" id="email" class="kontakt__field" required>
-			</div>
-			<div class="kontakt__item">
-				<label class="kontakt__label">Ihr Anliegen*</label>
-				<textarea name="anliegen" placeholder="Ihr Anliegen*" rows="8" class="kontakt__field" required></textarea>
+			<div class="kontakt__fields-container">
+				<div class="kontakt__short-fields">
+					<div class="kontakt__item">
+						<label for="anrede" class="kontakt__label">Anrede</label>
+						<input type="text" name="anrede" placeholder="Anrede" id="anrede" class="kontakt__field">
+					</div>
+					<div class="kontakt__item">
+						<label for="name" class="kontakt__label">Name*</label>
+						<input type="text" name="name" placeholder="Name*" id="name" class="kontakt__field" required>
+					</div>
+					<div class="kontakt__item">
+						<label for="email" class="kontakt__label">E-Mail*</label>
+						<input type="email" name="email" placeholder="E-Mail*" id="email" class="kontakt__field" required>
+					</div>
+				</div>
+				<div class="kontakt__long-field">
+					<div class="kontakt__item">
+						<label class="kontakt__label">Ihr Anliegen*</label>
+						<textarea name="anliegen" placeholder="Ihr Anliegen*" rows="10" class="kontakt__field" required></textarea>
+					</div>
+				</div>
 			</div>
 			<div class="kontakt__checkbox">
 				<input type="checkbox" name="datenschutz" id="datenschutz" required>

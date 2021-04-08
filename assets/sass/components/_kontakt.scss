@@ -2,7 +2,7 @@
 	padding: 8rem 0;
 
 	&__form {
-		width: 50%;
+		width: 80%;
 		margin: auto;
 		padding: 3rem;
 		display: flex;
@@ -27,6 +27,15 @@
 			}
 		}
 	}
+
+	&__fields-container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__short-fields { flex: 0 0 35%; }
+
+	&__long-field { flex: 0 0 55%; }
 
 	&__item, &__checkbox { margin-bottom: 2rem; }
 
