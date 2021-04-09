@@ -1,0 +1,53 @@
+.team {
+	background-color: #FAF0F2;
+
+	&__accent {
+		background-color: #2D3142;
+		height: 20rem;
+	}
+
+	&__container {
+		display: flex;
+	}
+
+	&__info {
+
+		&--left,
+		&--right {
+			font-size: 1.2rem;
+			text-align: justify;
+			width: 50%;
+		}
+
+		&--left {
+			color: #fff;
+
+			background-color: #2D3142;
+			padding: 3rem 3rem 3rem 0;
+		}
+
+		&--right {
+			color: #2D3142;
+			background-color: #fff;
+			padding: 3rem 0 3rem 3rem;
+		}
+	}
+
+	&__content {
+
+	 &--left { margin-left: 30%; }
+
+	 &--right { margin-right: 30%; }
+	}
+
+	&__area {
+		font-family: 'Spartan', sans-serif;
+		font-weight: 700;
+		color: #2D3142;
+		text-transform: uppercase;
+		background-color: #fff;
+		padding: .5rem;
+	}
+
+	&__member { padding: .5rem 0; }
+}

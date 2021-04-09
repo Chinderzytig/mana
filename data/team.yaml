@@ -1,0 +1,56 @@
+persons:
+  - area: "Vorstand:"
+    members:
+      - member: "Seraina Branschi • "
+      - member: "Melanie Cabaleiro • "
+      - member: "Isabel Niklaus • "
+      - member: "Lars Ziörjen"
+  - area: "Administration:"
+    members:
+      - member: "Graziella Fopp"
+  - area: "Redaktion:"
+    members:
+      - member: "Seraina Branschi • "
+      - member: "Graziella Fopp • "
+      - member: "Annic Berset • "
+      - member: "Rebekka Christen • "
+      - member: "Nicole Emch"
+      - member: "Kathrin Hausammann • "
+      - member: "Christoph Kuhn • "
+      - member: "Sam Penfould • "
+      - member: "Désirée Scheidegger • "
+      - member: "und Andere"
+  - area: "Bildung:"
+    members:
+      - member: "Melanie Cabaleiro • "
+      - member: "Simone Gfeller • "
+      - member: "Michèle Häberli • "
+      - member: "Franziska Streit • "
+      - member: "Sarah Sturny"
+      - member: "Anne-Kathrin Vogel • "
+      - member: "Angela Widmer"
+  - area: "Marketing:"
+    members:
+      - member: "Isabel Niklaus • "
+      - member: "Lars Ziörjen • "
+      - member: "Ardijan Sali"
+  - area: "Finanzen / HR:"
+    members:
+      - member: "Lars Ziörjen • "
+      - member: "Lukas Aebersold • "
+      - member: "Walter Ziörjen"
+  - area: "Public Relations / Social Media:"
+    members:
+      - member: "Isabel Niklaus • "
+      - member: "Selina Häuselmann • "
+  - area: "Mitglieder / Projekte:"
+    members:
+      - member: "Lars Ziörjen"
+  - area: "Beirat:"
+    members:
+      - member: "Matthias Aebischer • "
+      - member: "Rosmarie Bernasconi • "
+      - member: "Katharina Kalcsics • "
+      - member: "Dominik Mösching • "
+      - member: "Felix E. Müller • "
+      - member: "Jolan Ziörjen"
