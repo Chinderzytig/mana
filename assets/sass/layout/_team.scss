@@ -14,14 +14,13 @@
 
 		&--left,
 		&--right {
-			font-size: 1.2rem;
+			// font-size: 1.2rem;
 			text-align: justify;
 			width: 50%;
 		}
 
 		&--left {
 			color: #fff;
-
 			background-color: #2D3142;
 			padding: 3rem 3rem 3rem 0;
 		}
@@ -48,6 +47,4 @@
 		background-color: #fff;
 		padding: .5rem;
 	}
-
-	&__member { padding: .5rem 0; }
 }
