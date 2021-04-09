@@ -8,16 +8,15 @@
 	}
 
 	&__card {
-		flex: 0 0 45%;
+		flex: 0 0 47%;
 		display: flex;
 		flex-direction: column;
-
-		&:not(:last-child) { margin-bottom: 3rem; }
+		margin-top: 3rem;
 	}
 
 	&__img {
 		border: 2px solid rgba(7, 51, 47, 0.1);
-		padding: 3rem;
+		padding: 2rem;
 	}
 
 	&__content {
