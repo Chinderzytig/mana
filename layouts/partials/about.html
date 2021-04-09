@@ -1,4 +1,4 @@
-<section class="team" id="ueber-uns">
+<section class="about" id="ueber-uns">
 	<div class="content-container">
 		<div class="heading__container">
 			<h4 class="heading heading__quaternary">Über Uns</h4>
@@ -11,22 +11,11 @@
 			</p>
 		</div>
 	</div>
-	<div class="team__container">
-		<div class="team__info--left">
-			<div class="team__content--left">
-				<h3 class="heading heading__tertiary">Wer wir sind</h3>
-				{{ range .Site.Data.team.persons }}
-				<span class="team__area">{{ .area }}</span>
-				{{ range .members}}
-				<span class="team__member">{{ .member }}</span>
-				{{ end }}
-				{{ end }}
-			</div>
-		</div>
-		<div class="team__info--right">
-			<div class="team__content--right">
+	<div class="about__container">
+		<div class="about__group about__group--left">
+			<div class="about__content about__content--left">
 				<h3 class="heading heading__tertiary">Meinung, Geist, Verstand, Quelle</h3>
-				<p class="team__verein">
+				<p class="about__verein">
 					Der Verein setzt sich für die freie Meinungsbildung, Chancengerechtigkeit
 					und das Erlernen des Umgangs mit digitalen Medien ein. «Mana» ist ein
 					Ausdruck der Sprache Sanskrit und hat die Bedeutungen Meinung, Geist und
@@ -40,5 +29,23 @@
 				</p>
 			</div>
 		</div>
+		<div class="about__img">{{ partial "svgs/about.html" . }}</div>
+	</div>
+	<div class="about__container about__container--right">
+		<div class="about__group about__group--right">
+			<div class="about__content about__content--right">
+				<h3 class="heading heading__tertiary">Wer wir sind</h3>
+				<p class="about__verein">
+					{{ range .Site.Data.team.persons }}
+						<span class="about__area">{{ .area }}</span>
+						{{ range .members}}
+							<span class="about__member">{{ .member }}</span>
+						{{ end }}
+					{{ end }}
+				</p>
+			</div>
+			<div class="about__img"></div>
+		</div>
+		<div class="about__img">{{ partial "svgs/office.html" . }}</div>
 	</div>
 </section>
