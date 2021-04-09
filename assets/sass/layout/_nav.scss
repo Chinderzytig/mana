@@ -1,5 +1,16 @@
 .nav {
+	width: 70%;
+	margin: auto;
 	padding: 3rem 0;
+
+	&--sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: #fff;
+		padding: 3rem 15% 3rem 15%;
+		border-bottom: 2px solid #2D3142;
+	}
 
 	&__list {
 		list-style: none;
@@ -9,12 +20,20 @@
 	}
 
 	&__link {
+		padding: 2rem;
+		transition: background-color 0.2s;
 
 		&:link,
 		&:visited {
 			text-decoration: none;
 			color: #000;
 			font-weight: 600;
+		}
+
+		&:hover,
+		&:active {
+			color: #fff;
+			background-color: #2D3142;
 		}
 	}
 }
