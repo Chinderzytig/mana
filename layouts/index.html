@@ -1,8 +1,8 @@
 {{ define "main" }}
 	<header class="hero">
+		{{ partial "nav.html" . }}
 		<div class="content-container">
-			{{ partial "nav.html" . }}
-			<div class="hero__container">
+			<div class="hero__container" id="hero">
 				<div class="hero__content">
 					<h1 class="heading heading__primary">
 						News von heute für die aufgeweckte Gesellschaft von morgen.

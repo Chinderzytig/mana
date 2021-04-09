@@ -7,15 +7,13 @@
 		justify-content: space-around;
 		align-items: center;
 		padding: 10rem 0;
+
+		&--offset { padding: 22rem 0; }
 	}
 
 	&__content {
 		width: 40%;
 		text-align: left;
-	}
-
-	&__text {
-		font-size: 1.6rem;
 	}
 }
 

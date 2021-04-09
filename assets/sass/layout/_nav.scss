@@ -1,5 +1,15 @@
 .nav {
+	width: 70%;
+	margin: auto;
 	padding: 3rem 0;
+
+	&--sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: #fff;
+		padding: 3rem 15% 3rem 15%;
+	}
 
 	&__list {
 		list-style: none;
