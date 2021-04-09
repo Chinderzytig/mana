@@ -1,0 +1,43 @@
+.about {
+	// background-color: #FAF0F2;
+
+	&__container {
+		display: flex;
+
+		&--right { flex-direction: row-reverse; }
+	}
+
+	&__group {
+		width: 50%;
+		background-color: #2D3142;
+
+		&--left {
+			padding: 3rem 3rem 3rem 0;
+		}
+
+		&--right { padding: 3rem 0 3rem 3rem; }
+	}
+
+	&__content {
+		color: #fff;
+		text-align: justify;
+		line-height: 4rem;
+
+		&--left { margin-left: 30%;}
+
+		&--right { margin-right: 30%; }
+	}
+
+	&__img {
+		background-color: #FAF0F2;
+	}
+
+	&__area {
+		font-family: 'Spartan', sans-serif;
+		font-weight: 700;
+		color: #2D3142;
+		text-transform: uppercase;
+		background-color: #fff;
+		padding: .5rem;
+	}
+}
