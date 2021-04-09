@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	var nav = document.getElementById("nav");
 	var hero = document.getElementById("hero");
 
-	var sticky = nav.offsetTop;
-
 	function myFunction() {
 		if (window.pageYOffset > 0) {
 			nav.classList.add("nav--sticky");
