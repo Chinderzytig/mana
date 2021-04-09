@@ -20,12 +20,20 @@
 	}
 
 	&__link {
+		padding: 2rem;
+		transition: background-color 0.2s;
 
 		&:link,
 		&:visited {
 			text-decoration: none;
 			color: #000;
 			font-weight: 600;
+		}
+
+		&:hover,
+		&:active {
+			color: #fff;
+			background-color: #2D3142;
 		}
 	}
 }
