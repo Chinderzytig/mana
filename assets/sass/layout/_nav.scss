@@ -35,5 +35,7 @@
 			color: #fff;
 			background-color: #2D3142;
 		}
+
+		&--external { @extend .nav__link; }
 	}
 }
