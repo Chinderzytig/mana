@@ -20,6 +20,9 @@
 
 			&:not(:last-child) { margin-bottom: 3rem; }
 		}
+
+		@include respond(tab-port-xxs) { flex: 1; }
+
 	}
 
 	&__img {

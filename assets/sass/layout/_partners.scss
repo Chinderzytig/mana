@@ -4,6 +4,8 @@
 
 	@include respond(tab-port-lg) { height: 12vh; }
 
+	@include respond(tab-port-xxs) { height: 14vh; }
+
 	&__container {
 		padding: 3rem;
 		display: flex;

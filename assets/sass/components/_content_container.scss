@@ -3,4 +3,6 @@
 	margin: auto;
 
 	@include respond(notebook) { width: 80%; }
+
+	@include respond(tab-port-xxs) { width: 90%; }
 }

@@ -4,6 +4,8 @@
 
 	@include respond(tab-port-lg) { height: 88vh; }
 
+	@include respond(tab-port-xxs) { height: 86vh; }
+
 	&__container {
 		display: flex;
 		justify-content: space-around;

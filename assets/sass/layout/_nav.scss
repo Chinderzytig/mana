@@ -9,15 +9,19 @@
 
 	@include respond(notebook) { width: 80%; }
 
+	@include respond(tab-port-xxs) { width: 90%; }
+
 	&--sticky {
 		position: fixed;
 		top: 0;
 		width: 100%;
 		background-color: #fff;
-		padding: 2rem 15% 2rem 15%;
+		padding: 2rem 15%;
 		border-bottom: 2px solid #2D3142;
 
-		@include respond(notebook) { padding:  2rem 10% 2rem 10%; }
+		@include respond(notebook) { padding: 2rem 10%; }
+
+		@include respond(tab-port-xxs) { padding: 2rem 5%; }
 	}
 
 	&__list {

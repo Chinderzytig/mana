@@ -16,7 +16,7 @@ html {
 
 	@include respond(tab-land-lg) { font-size: 56.25%; }
 
-	@include respond(phone-xxl) { font-size: 50%; }
+	@include respond(tab-port-xxs) { font-size: 50%; }
 }
 
 body {
@@ -66,5 +66,7 @@ body {
 		width: 75%;
 		text-align: center;
 		margin-bottom: 8rem;
+
+		@include respond(tab-port-xxs) { width: 100%; }
 	}
 }

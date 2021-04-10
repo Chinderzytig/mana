@@ -7,6 +7,8 @@
 			flex-direction: row-reverse;
 
 			@include respond(notebook) { border-top: 4px solid #FFCF04; }
+
+			@include respond(tab-port-xxs) { flex-direction: column-reverse; }
 		}
 	}
 
@@ -18,8 +20,14 @@
 
 		@include respond(tab-port-lg) { width: 80%; }
 
+		@include respond(tab-port-xxs) { width: 100%; }
+
+
 		&--left {
 			padding: 3rem 3rem 3rem 0;
+
+			@include respond(tab-port-xxs) { padding: 3rem 5%; }
+
 		}
 
 		&--right { padding: 3rem 0 3rem 3rem; }
@@ -37,6 +45,10 @@
 
 			@include respond(tab-port-lg) { margin-left: 10%; }
 
+			@include respond(tab-port-xxs) {
+				margin-left: 0;
+			}
+
 		}
 
 		&--right {
@@ -52,6 +64,19 @@
 		width: 50%;
 		background-color: #FAF0F2;
 
+		&--left {
+
+			@include respond(tab-port-xxs) { display: none; }
+		}
+
+		&--right {
+
+			@include respond(tab-port-xxs) {
+				width: 100%;
+				padding: 3rem 5%;
+			}
+		}
+
 		&-container {
 			height: 100%;
 			display: flex;
@@ -63,7 +88,6 @@
 	&__svg {
 		width: 36.25rem;
 		height: 46.5rem
-
 	}
 
 	&__svg-office {
