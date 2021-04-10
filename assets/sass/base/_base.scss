@@ -7,9 +7,10 @@
 *::before,
 *::after { box-sizing: inherit; }
 
-html {
-	font-size: 62.5%;
-	box-sizing: border-box;
-}
+html { box-sizing: border-box; }
 
-section { padding: 8rem 0; }
+section {
+	padding: 8rem 0;
+
+	@include respond(tab-port-lg) { padding: 6rem 0; }
+}

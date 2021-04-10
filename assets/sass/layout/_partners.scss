@@ -2,6 +2,8 @@
 	height: 10vh;
 	background-color: #2D3142;
 
+	@include respond(tab-port-lg) { height: 12vh; }
+
 	&__container {
 		padding: 3rem;
 		display: flex;
@@ -10,5 +12,10 @@
 
 		@include respond(notebook) { padding: 2rem; }
 
+		@include respond(tab-port-lg) { flex-wrap: wrap; }
+	}
+
+	&__link {
+		@include respond(tab-port-lg) { padding: 1rem; }
 	}
 }

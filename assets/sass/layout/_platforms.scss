@@ -5,6 +5,7 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 
+		@include respond(tab-port-lg) { justify-content: center; }
 	}
 
 	&__card {
@@ -13,11 +14,32 @@
 		flex-direction: column;
 
 		&:nth-child(-n+2) { margin-bottom: 3rem; }
+
+		@include respond(tab-port-lg) {
+			flex: 0 0 75%;
+
+			&:not(:last-child) { margin-bottom: 3rem; }
+		}
 	}
 
 	&__img {
-		border: 2px solid rgba(7, 51, 47, 0.1);
-		padding: 2rem;
+
+		&-container {
+			border: 2px solid rgba(7, 51, 47, 0.1);
+			padding: 2rem;
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	&__svg {
+		width: 43.5rem;
+		height: 12.5rem;
+
+		@include respond(tab-port-lg) {
+			width: 49rem;
+			height: 18rem;
+		}
 	}
 
 	&__content {

@@ -1,5 +1,4 @@
 .about {
-	// background-color: #FAF0F2;
 
 	&__container {
 		display: flex;
@@ -16,6 +15,8 @@
 		background-color: #2D3142;
 
 		@include respond(notebook) { width: 60%; }
+
+		@include respond(tab-port-lg) { width: 80%; }
 
 		&--left {
 			padding: 3rem 3rem 3rem 0;
@@ -34,12 +35,16 @@
 
 			@include respond(notebook) { margin-left: 20%; }
 
+			@include respond(tab-port-lg) { margin-left: 10%; }
+
 		}
 
 		&--right {
 			margin-right: 30%;
 
 			@include respond(notebook) { margin-right: 20%; }
+
+			@include respond(tab-port-lg) { margin-right: 10%; }
 		}
 	}
 
@@ -58,6 +63,17 @@
 	&__svg {
 		width: 36.25rem;
 		height: 46.5rem
+
+	}
+
+	&__svg-office {
+		width: 54rem;
+		height: 46.5rem;
+
+		@include respond(tab-port-lg) {
+			width: 44rem;
+			height: 36.5rem;
+		}
 	}
 
 	&__area {

@@ -11,6 +11,12 @@
 	http://www.fontshop.com
 */
 
+html {
+	font-size: 62.5%;
+
+	@include respond(tab-land-lg) { font-size: 56.25%; }
+}
+
 body {
 	font-family:"Axiforma W00 Regular";
 	font-size: 1.6rem;

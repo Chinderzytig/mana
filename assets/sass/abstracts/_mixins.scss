@@ -31,10 +31,10 @@
 		@media (max-width: 47.9375em) { @content };	//767px
 	}
 	@if $breakpoint == tab-port-lg {
-		@media (max-width: 50em) { @content };	//800px
+		@media (max-width: 64em) { @content };	//1024px
 	}
-	@if $breakpoint == tab-port-xl {
-		@media (max-width: 56.25em) { @content };	//900px
+	@if $breakpoint == tab-land-lg {
+		@media (max-width: 69.5em) { @content };	//1112px
 	}
 	@if $breakpoint == notebook {
 		@media (max-width: 85.375em) { @content };	//1366px

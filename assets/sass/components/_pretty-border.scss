@@ -1,4 +1,7 @@
 .pretty-border {
 	height: 1rem;
 	background-image: linear-gradient(to right, #FFCF04, #30AFAA, #EC633F);
+	margin-top: 8rem;
+
+	@include respond(tab-port-lg) { margin-top: 6rem; }
 }
