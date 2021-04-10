@@ -14,15 +14,12 @@
 
 		@include respond(tab-port-lg) {
 			flex-direction: column;
-			padding: 12rem 0;
 		}
 
 		&--offset {
-			padding: 20rem 0;
+			padding: 19.5rem 0;
 
 			@include respond(notebook) { padding: 15rem 0; }
-
-			@include respond(tab-port-lg) { padding: 22rem 0; }
 		}
 	}
 
@@ -31,7 +28,7 @@
 		text-align: left;
 
 		@include respond(tab-port-lg) {
-			width: 70%;
+			width: 80%;
 			text-align: justify;
 			margin-bottom: 4rem;
 		}
@@ -47,8 +44,8 @@
 		}
 
 		@include respond(tab-port-lg) {
-			width: 65rem;
-			height: 45rem;
+			width: 55rem;
+			height: 35rem;
 		}
 	}
 }
