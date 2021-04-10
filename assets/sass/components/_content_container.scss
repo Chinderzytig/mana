@@ -1,4 +1,6 @@
 .content-container {
 	width: 70%;
 	margin: auto;
+
+	@include respond(notebook) { width: 80%; }
 }

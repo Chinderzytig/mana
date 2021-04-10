@@ -7,5 +7,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
+
+		@include respond(notebook) { padding: 2rem; }
+
 	}
 }

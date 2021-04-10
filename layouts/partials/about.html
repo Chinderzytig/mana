@@ -29,7 +29,11 @@
 				</p>
 			</div>
 		</div>
-		<div class="about__img">{{ partial "svgs/about.html" . }}</div>
+		<div class="about__img">
+			<div class="about__img-container">
+				{{ partial "svgs/about.html" . }}
+			</div>
+		</div>
 	</div>
 	<div class="about__container about__container--right">
 		<div class="about__group about__group--right">
@@ -46,6 +50,10 @@
 			</div>
 			<div class="about__img"></div>
 		</div>
-		<div class="about__img">{{ partial "svgs/office.html" . }}</div>
+		<div class="about__img">
+			<div class="about__img-container">
+				{{ partial "svgs/office.html" . }}
+			</div>
+		</div>
 	</div>
 </section>
