@@ -2,6 +2,10 @@
 	width: 70%;
 	margin: auto;
 	padding: 2rem 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
 	@include respond(notebook) { width: 80%; }
 
@@ -19,8 +23,32 @@
 	&__list {
 		list-style: none;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
+
+		@include respond(tab-port-lg) {
+			position: fixed;
+      left: -100%;
+      top: 10rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+			border: 2px solid #2D3142;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+		}
+
+		&--active {
+
+			@include respond(tab-port-lg) { left: 0; }
+		}
+	}
+
+	&__item {
+
+		@include respond(tab-port-lg) {
+			margin: 2.5rem 0;
+		}
 	}
 
 	&__link {
@@ -41,5 +69,31 @@
 		}
 
 		&--external { @extend .nav__link; }
+	}
+
+	&__hamburger {
+		display: none;
+
+		@include respond(tab-port-lg) {
+			display: block;
+			cursor: pointer;
+
+			&--active .nav__bar:nth-child(2) { opacity: 0; }
+
+			&--active .nav__bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+
+			&--active .nav__bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+		}
+	}
+
+	&__bar {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px auto;
+		-webkit-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		background-color: #101010;
 	}
 }
