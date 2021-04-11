@@ -64,7 +64,7 @@
 			height: 24rem;
 		}
 
-		@include respond(tab-port-xxs) {
+		@include respond(phone-xxl) {
 			width: 40rem;
 			height: 22rem;
 		}

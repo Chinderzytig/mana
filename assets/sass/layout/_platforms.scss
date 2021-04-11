@@ -49,7 +49,7 @@
 			height: 11rem;
 		}
 
-		@include respond(phone-med) { width: 36rem; }
+		@include respond(phone-lg) { width: 36rem; }
 
 		@include respond(phone-sm) { width: 31rem; }
 	}
