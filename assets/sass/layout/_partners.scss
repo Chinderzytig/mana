@@ -8,7 +8,11 @@
 
 	@include respond(phone-xxl) { height: 16vh; }
 
-	@include respond(phone-lg) { height: 21vh; }
+	@include respond(phone-lg) { height: 18vh; }
+
+	@include respond(phone-med) { height: 20vh; }
+
+	@include respond(phone-med) { height: 22vh; }
 
 
 	&__container {
