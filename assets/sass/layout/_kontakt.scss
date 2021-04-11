@@ -28,6 +28,8 @@
 	&__fields-container {
 		display: flex;
 		justify-content: space-between;
+
+		@include respond(tab-port-xxs) { flex-direction: column; }
 	}
 
 	&__short-fields { flex: 0 0 35%; }

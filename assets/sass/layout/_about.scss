@@ -1,21 +1,40 @@
 .about {
-	// background-color: #FAF0F2;
 
 	&__container {
 		display: flex;
 
-		&--right { flex-direction: row-reverse; }
+		&--right {
+			flex-direction: row-reverse;
+
+			@include respond(notebook) { border-top: 4px solid #FFCF04; }
+
+			@include respond(tab-port-xxs) { flex-direction: column-reverse; }
+		}
 	}
 
 	&__group {
 		width: 50%;
 		background-color: #2D3142;
 
+		@include respond(notebook) { width: 60%; }
+
+		@include respond(tab-port-lg) { width: 80%; }
+
+		@include respond(tab-port-xxs) { width: 100%; }
+
+
 		&--left {
 			padding: 3rem 3rem 3rem 0;
+
+			@include respond(tab-port-xxs) { padding: 3rem 5%; }
+
 		}
 
-		&--right { padding: 3rem 0 3rem 3rem; }
+		&--right {
+			padding: 3rem 0 3rem 3rem;
+
+			@include respond(phone-xxl) { padding: 3rem 5%; }
+		}
 	}
 
 	&__content {
@@ -23,13 +42,67 @@
 		text-align: justify;
 		line-height: 4rem;
 
-		&--left { margin-left: 30%;}
+		&--left {
+			margin-left: 30%;
 
-		&--right { margin-right: 30%; }
+			@include respond(notebook) { margin-left: 20%; }
+
+			@include respond(tab-port-lg) { margin-left: 10%; }
+
+			@include respond(tab-port-xxs) { margin-left: 0; }
+
+		}
+
+		&--right {
+			margin-right: 30%;
+
+			@include respond(notebook) { margin-right: 20%; }
+
+			@include respond(tab-port-lg) { margin-right: 10%; }
+
+			@include respond(phone-xxl) { margin-right: 0; }
+
+
+
+		}
 	}
 
 	&__img {
+		width: 50%;
 		background-color: #FAF0F2;
+
+		&--left { @include respond(tab-port-xxs) { display: none; } }
+
+		&--right {
+
+			@include respond(tab-port-xxs) {
+				width: 100%;
+				padding: 3rem 5%;
+				border-bottom: 4px solid #FFCF04;
+			}
+		}
+
+		&-container {
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	&__svg {
+		width: 36.25rem;
+		height: 46.5rem
+	}
+
+	&__svg-office {
+		width: 54rem;
+		height: 46.5rem;
+
+		@include respond(tab-port-lg) {
+			width: 44rem;
+			height: 36.5rem;
+		}
 	}
 
 	&__area {

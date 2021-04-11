@@ -2,17 +2,71 @@
 	height: 90vh;
 	background-color: #FAF0F2;
 
+	@include respond(tab-port-lg) { height: 88vh; }
+
+	@include respond(tab-port-xxs) { height: 86vh; }
+
+	@include respond(phone-xxl) { height: 100vh; }
+
+	@include respond(phone-lg) { height: 135vh; }
+
+	@include respond(phone-sm) { height: 160vh; }
+
 	&__container {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		padding: 10rem 0;
 
-		&--offset { padding: 22rem 0; }
+		@include respond(notebook) { padding: 5rem 0; }
+
+		@include respond(tab-port-lg) { flex-direction: column; }
+
+		&--offset {
+			padding: 19.5rem 0;
+
+			@include respond(notebook) { padding: 15rem 0; }
+		}
 	}
 
 	&__content {
 		width: 40%;
 		text-align: left;
+
+		@include respond(tab-port-lg) {
+			width: 80%;
+			text-align: justify;
+			margin-bottom: 4rem;
+		}
+
+		@include respond(tab-port-xxs) { width: 100%; }
+
+		@include respond(phone-xl) { margin-bottom: 2rem; }
+
+	}
+
+	&__svg {
+		width: 60rem;
+		height: 40rem;
+
+		@include respond(notebook) {
+			width: 50rem;
+			height: 30rem;
+		}
+
+		@include respond(tab-port-lg) {
+			width: 55rem;
+			height: 35rem;
+		}
+
+		@include respond(tab-port-xxs) {
+			width: 44rem;
+			height: 24rem;
+		}
+
+		@include respond(tab-port-xxs) {
+			width: 40rem;
+			height: 22rem;
+		}
 	}
 }

@@ -12,8 +12,10 @@
 		<div class="platforms__container">
 			{{ range .Site.Data.platforms.project }}
 				<div class="platforms__card">
-					<div class="platforms__img">
-						{{ partial .svg . }}
+					<div class="platforms__img-container">
+						<div class="platforms__img">
+							{{ partial .svg . }}
+						</div>
 					</div>
 					<div class="platforms__content">
 						<h3 class="heading heading__tertiary">{{ .title }}</h3>
