@@ -1,6 +1,7 @@
 .btn {
-	font-size: 1.8rem;
 	cursor: pointer;
+
+	&__container { margin-top: 3rem; }
 
 	&--primary {
 		border: 2px solid #2D3142;
@@ -8,7 +9,10 @@
 		padding: 1.25rem;
 
 		&:link,
-		&:visited { color: #2D3142; }
+		&:visited {
+			text-decoration: none;
+			color: #2D3142;
+		}
 
 		&:hover,
 		&:active {
