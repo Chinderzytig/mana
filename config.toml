@@ -1,4 +1,4 @@
-baseURL = "https://explore-mana.netlify.app"
+baseURL = "https://explore-mana.org/"
 languageCode = "de-ch"
 title = "Meinung, Geist, Verstand, Quelle"
 disableKinds = ["taxonomy"]
