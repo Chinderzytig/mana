@@ -1,0 +1,20 @@
+{{ define "main" }}
+	<header class="hero">
+		{{ partial "nav.html" . }}
+		<div class="content-container">
+			<div class="hero__container" id="hero">
+				<div class="hero__content">
+					<h1 class="heading heading__primary">
+						Vielen Dank, dass Sie mit Mana Kontakt aufgenommen haben.
+					</h1>
+					<p class="hero__text">
+						Wir wollten dich nur wissen lassen, dass wir deine Nachricht erhalten
+						haben und uns so schnell wie möglich bei dir melden werden.
+					</p>
+				</div>
+				{{ partial "svgs/nachricht.html" }}
+			</div>
+		</div>
+	</header>
+	{{ partial "partners.html" . }}
+{{end}}
