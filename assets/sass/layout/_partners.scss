@@ -22,7 +22,5 @@
 		@include respond(tab-port-lg) { flex-wrap: wrap; }
 	}
 
-	&__link {
-		@include respond(tab-port-lg) { padding: 1rem; }
-	}
+	&__link { @include respond(tab-port-lg) { padding: 1rem; } }
 }

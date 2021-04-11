@@ -71,10 +71,7 @@
 		width: 50%;
 		background-color: #FAF0F2;
 
-		&--left {
-
-			@include respond(tab-port-xxs) { display: none; }
-		}
+		&--left { @include respond(tab-port-xxs) { display: none; } }
 
 		&--right {
 

@@ -42,18 +42,10 @@
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 		}
 
-		&--active {
-
-			@include respond(tab-port-lg) { left: 0; }
-		}
+		&--active { @include respond(tab-port-lg) { left: 0; } }
 	}
 
-	&__item {
-
-		@include respond(tab-port-lg) {
-			margin: 2.5rem 0;
-		}
-	}
+	&__item { @include respond(tab-port-lg) { margin: 2.5rem 0; } }
 
 	&__link {
 		padding: 2rem;

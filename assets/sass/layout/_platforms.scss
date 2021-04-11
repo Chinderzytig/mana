@@ -32,7 +32,6 @@
 			padding: 2rem;
 			display: flex;
 			justify-content: center;
-
 		}
 	}
 
@@ -62,8 +61,5 @@
 		@include respond(phone-xxl) { padding: 2rem; }
 	}
 
-	&__text {
-
-		@include respond(phone-xxl) { text-align: justify; }
-	}
+	&__text { @include respond(phone-xxl) { text-align: justify; } }
 }
