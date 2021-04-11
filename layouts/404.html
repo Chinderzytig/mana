@@ -1,23 +1,20 @@
 {{ define "main" }}
 	<header class="hero">
+		{{ partial "nav.html" . }}
 		<div class="content-container">
-			<div class="logo__container">
-				<img src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,w_250/v1617780304/mana/mana-logo_i1mpsg.png" alt="Mana logo" class="logo">
-			</div>
 			<div class="hero__container" id="hero">
 				<div class="hero__content">
 					<h1 class="heading heading__primary">
-						Vielen Dank, dass Sie mit Mana Kontakt aufgenommen haben.
+						404 Seite nicht gefunden.
 					</h1>
 					<p class="hero__text">
-						Wir wollten dich nur wissen lassen, dass wir deine Nachricht erhalten
-						haben und uns so schnell wie möglich bei dir melden werden.
+						Leider konnten wir die Seite, nach der suchst, nicht finden.
 					</p>
 					<div class="btn__container">
 						<a href="/" class="btn btn--primary">Bringen sie mich zurück nach Hause</a>
 					</div>
 				</div>
-				{{ partial "svgs/nachricht.html" }}
+				{{ partial "svgs/404.html" }}
 			</div>
 		</div>
 	</header>
