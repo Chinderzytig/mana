@@ -1,7 +1,9 @@
 {{ define "main" }}
 	<header class="hero">
 		<div class="content-container">
-			<img src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,w_250/v1617780304/mana/mana-logo_i1mpsg.png" alt="Mana logo" class="logo">
+			<div class="logo__container">
+				<img src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,w_250/v1617780304/mana/mana-logo_i1mpsg.png" alt="Mana logo" class="logo">
+			</div>
 			<div class="hero__container" id="hero">
 				<div class="hero__content">
 					<h1 class="heading heading__primary">

@@ -1,7 +1,11 @@
 .btn {
 	cursor: pointer;
 
-	&__container { margin-top: 3rem; }
+	&__container {
+		margin-top: 3rem;
+
+		@include respond(tab-port-lg) { text-align: center; }
+	}
 
 	&--primary {
 		border: 2px solid #2D3142;
@@ -20,4 +24,6 @@
 			background-color: #2D3142;
 		}
 	}
+
+	&--special { }
 }
