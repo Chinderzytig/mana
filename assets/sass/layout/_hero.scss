@@ -6,6 +6,12 @@
 
 	@include respond(tab-port-xxs) { height: 86vh; }
 
+	@include respond(phone-xxl) { height: 100vh; }
+
+	@include respond(phone-lg) { height: 135vh; }
+
+	@include respond(phone-sm) { height: 160vh; }
+
 	&__container {
 		display: flex;
 		justify-content: space-around;
@@ -14,9 +20,7 @@
 
 		@include respond(notebook) { padding: 5rem 0; }
 
-		@include respond(tab-port-lg) {
-			flex-direction: column;
-		}
+		@include respond(tab-port-lg) { flex-direction: column; }
 
 		&--offset {
 			padding: 19.5rem 0;
@@ -34,6 +38,11 @@
 			text-align: justify;
 			margin-bottom: 4rem;
 		}
+
+		@include respond(tab-port-xxs) { width: 100%; }
+
+		@include respond(phone-xl) { margin-bottom: 2rem; }
+
 	}
 
 	&__svg {
@@ -48,6 +57,16 @@
 		@include respond(tab-port-lg) {
 			width: 55rem;
 			height: 35rem;
+		}
+
+		@include respond(tab-port-xxs) {
+			width: 44rem;
+			height: 24rem;
+		}
+
+		@include respond(tab-port-xxs) {
+			width: 40rem;
+			height: 22rem;
 		}
 	}
 }

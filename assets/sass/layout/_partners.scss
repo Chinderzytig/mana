@@ -6,6 +6,11 @@
 
 	@include respond(tab-port-xxs) { height: 14vh; }
 
+	@include respond(phone-xxl) { height: 16vh; }
+
+	@include respond(phone-lg) { height: 21vh; }
+
+
 	&__container {
 		padding: 3rem;
 		display: flex;

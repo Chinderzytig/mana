@@ -30,7 +30,11 @@
 
 		}
 
-		&--right { padding: 3rem 0 3rem 3rem; }
+		&--right {
+			padding: 3rem 0 3rem 3rem;
+
+			@include respond(phone-xxl) { padding: 3rem 5%; }
+		}
 	}
 
 	&__content {
@@ -45,9 +49,7 @@
 
 			@include respond(tab-port-lg) { margin-left: 10%; }
 
-			@include respond(tab-port-xxs) {
-				margin-left: 0;
-			}
+			@include respond(tab-port-xxs) { margin-left: 0; }
 
 		}
 
@@ -57,6 +59,11 @@
 			@include respond(notebook) { margin-right: 20%; }
 
 			@include respond(tab-port-lg) { margin-right: 10%; }
+
+			@include respond(phone-xxl) { margin-right: 0; }
+
+
+
 		}
 	}
 

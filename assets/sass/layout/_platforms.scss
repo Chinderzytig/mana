@@ -4,6 +4,7 @@
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		width: 100%;
 
 		@include respond(tab-port-lg) { justify-content: center; }
 	}
@@ -21,8 +22,7 @@
 			&:not(:last-child) { margin-bottom: 3rem; }
 		}
 
-		@include respond(tab-port-xxs) { flex: 1; }
-
+		@include respond(tab-port-xxs) { flex: 0 0 90%; }
 	}
 
 	&__img {
@@ -32,6 +32,7 @@
 			padding: 2rem;
 			display: flex;
 			justify-content: center;
+
 		}
 	}
 
@@ -43,10 +44,26 @@
 			width: 49rem;
 			height: 18rem;
 		}
+
+		@include respond(tab-port-xxs) {
+			width: 40rem;
+			height: 11rem;
+		}
+
+		@include respond(phone-med) { width: 36rem; }
+
+		@include respond(phone-sm) { width: 31rem; }
 	}
 
 	&__content {
 		background-color: rgba(7, 51, 47, 0.1);
 		padding: 4rem;
+
+		@include respond(phone-xxl) { padding: 2rem; }
+	}
+
+	&__text {
+
+		@include respond(phone-xxl) { text-align: justify; }
 	}
 }

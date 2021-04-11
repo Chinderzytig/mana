@@ -39,12 +39,17 @@ body {
 		font-size: 4rem;
 		line-height: 4.75rem;
 		margin-bottom: 3rem;
+
+		@include respond(phone-xxl) { text-align: left; }
+
 	}
 
 	&__secondary {
 		font-weight: 900;
 		font-size: 3rem;
 		margin-bottom: 1.75rem;
+
+		@include respond(phone-med) { text-align: center; }
 	}
 
 	&__tertiary {
@@ -68,5 +73,10 @@ body {
 		margin-bottom: 8rem;
 
 		@include respond(tab-port-xxs) { width: 100%; }
+
+		@include respond(phone-xxl) { text-align: justify; }
+
+		@include respond(phone-xl) { margin-bottom: 4rem; }
+
 	}
 }

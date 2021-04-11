@@ -13,4 +13,7 @@ section {
 	padding: 8rem 0;
 
 	@include respond(tab-port-lg) { padding: 6rem 0; }
+
+	@include respond(phone-xxl) { padding: 4rem 0; }
+
 }
