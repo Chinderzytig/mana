@@ -5,6 +5,14 @@ project:
       Aktuell agieren wir auf der Plattform chinderzytig.ch und
       veröffentlichen drei Artikel und zwei Arbeitsmaterialien wöchentlich.
       Die Ziele entsprechen der Weiterentwicklung.
+  - svg: "svgs/visible-learning.html"
+    title: "Visible Learning"
+    text: |
+      Individuelle Lernbegleitung ist der Schlüssel für stärkende Bildung. Visible
+      Learning von mirroco ermöglicht die Kompetenzentwicklung der Lernenden im
+      Hinblick auf den Lehrplan 21 sichtbar zu machen und mit Weitsicht zu
+      begleiten. Der gesamte Inhalt der Chinderzytig ist mit den Kompetenzen des
+      Lehrplan 21 verknüpft und durch die Software aufbereitet.
   - svg: "svgs/mana-zeitung.html"
     title: "Die Weiterentwicklung der Chinderzytig und der Jugendzytig"
     text: |
