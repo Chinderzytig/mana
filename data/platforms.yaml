@@ -13,6 +13,9 @@ project:
       Hinblick auf den Lehrplan 21 sichtbar zu machen und mit Weitsicht zu
       begleiten. Der gesamte Inhalt der Chinderzytig ist mit den Kompetenzen des
       Lehrplan 21 verknüpft und durch die Software aufbereitet.
+    btn:
+      - link: "https://www.chinderzytig.ch/visible-learning/"
+        label: "Mehr erfahren"
   - svg: "svgs/mana-zeitung.html"
     title: "Die Weiterentwicklung der Chinderzytig und der Jugendzytig"
     text: |
