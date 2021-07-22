@@ -57,6 +57,7 @@
 	&__content {
 		background-color: rgba(7, 51, 47, 0.1);
 		padding: 4rem;
+		flex: 1;
 
 		@include respond(phone-xxl) { padding: 2rem; }
 	}
