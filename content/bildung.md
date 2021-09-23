@@ -1,0 +1,4 @@
+---
+title: "Bildung"
+layout: bildung
+---

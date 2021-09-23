@@ -30,7 +30,7 @@ project:
       Lehrplan21-kompatibel sind. Ausserdem bieten wir mit unseren Partner*innen
       Lernbegleitungen und Coachings an.
     btn:
-      - link: "https://www.chinderzytig.ch/bildung/"
+      - link: "https://www.explore-mana.org/bildung/"
         label: "Mehr erfahren"
   - svg: "svgs/mana-wissen.html"
     title: "Die Wissensdatenbank"
