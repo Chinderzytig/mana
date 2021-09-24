@@ -16,17 +16,11 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		padding: 10rem 0;
+		padding: 19.5rem 0;
 
-		@include respond(notebook) { padding: 5rem 0; }
+		@include respond(notebook) { padding: 15rem 0; }
 
 		@include respond(tab-port-lg) { flex-direction: column; }
-
-		&--offset {
-			padding: 19.5rem 0;
-
-			@include respond(notebook) { padding: 15rem 0; }
-		}
 	}
 
 	&__content {
