@@ -1,15 +1,14 @@
 .nav {
-	width: 70%;
-	margin: auto;
-	padding: 2rem 0;
+	position: absolute;
+	width: 100%;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 2rem 15%;
 
-	@include respond(notebook) { width: 80%; }
 
-	@include respond(tab-port-xxs) { width: 90%; }
+	@include respond(notebook) { padding: 2rem 10%; }
 
 	&--sticky {
 		position: fixed;

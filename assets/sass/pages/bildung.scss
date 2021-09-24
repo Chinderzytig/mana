@@ -1,0 +1,27 @@
+.bildung {
+
+	&__partner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 3rem;
+
+		&:not(:last-child) { margin-bottom: 3rem; }
+
+		&--pink { background-color: #FAF0F2; }
+	}
+
+	&__logo { margin-bottom: 3rem; }
+
+	&__text {
+		text-align: justify;
+
+		&-link {
+			color: #000;
+			font-weight: bold;
+
+			&:link,
+			&:visited { color: #000; }
+		}
+	}
+}

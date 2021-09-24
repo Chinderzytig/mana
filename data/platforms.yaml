@@ -15,6 +15,7 @@ project:
       Lehrplan 21 verknüpft und durch die Software aufbereitet.
     btn:
       - link: "https://www.chinderzytig.ch/visible-learning/"
+        target: "_blank"
         label: "Mehr erfahren"
   - svg: "svgs/mana-zeitung.html"
     title: "Die Weiterentwicklung der Chinderzytig und der Jugendzytig"
@@ -27,7 +28,12 @@ project:
     text: |
       Die Zeitungen werden überdies ergänzt mit Arbeitsmaterial und
       Unterrichtseinheiten, die von Lehrpersonen erstellt werden und garantiert
-      Lehrplan21-kompatibel sind.
+      Lehrplan21-kompatibel sind. Ausserdem bieten wir mit unseren Partner*innen
+      Lernbegleitungen und Coachings an.
+    btn:
+      - link: "/bildung"
+        target: "_self"
+        label: "Mehr erfahren"
   - svg: "svgs/mana-wissen.html"
     title: "Die Wissensdatenbank"
     text: |

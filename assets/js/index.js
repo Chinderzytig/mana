@@ -14,20 +14,20 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	}
 
-	const links = document.querySelectorAll(".nav__link");
-
-	for (const link of links) {
-		link.addEventListener("click", clickHandler);
-	}
-
-	function clickHandler(e) {
-		e.preventDefault();
-		const href = this.getAttribute("href");
-
-		document.querySelector(href).scrollIntoView({
-			behavior: "smooth"
-		});
-	}
+	// const links = document.querySelectorAll(".nav__link");
+	//
+	// for (const link of links) {
+	// 	link.addEventListener("click", clickHandler);
+	// }
+	//
+	// function clickHandler(e) {
+	// 	e.preventDefault();
+	// 	const href = this.getAttribute("href");
+	//
+	// 	document.querySelector(href).scrollIntoView({
+	// 		behavior: "smooth"
+	// 	});
+	// }
 
 	const hamburger = document.querySelector(".nav__hamburger");
 	const navMenu = document.querySelector(".nav__list");

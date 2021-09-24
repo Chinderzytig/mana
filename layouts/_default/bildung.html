@@ -1,0 +1,85 @@
+{{ define "main" }}
+	<section class="bildung">
+		<div class="content-container">
+			<div class="heading__container heading__container-bildung">
+				<h4 class="heading heading__quaternary">mit unseren Partner*innen</h4>
+				<h2 class="heading heading__secondary">Lernbegleitung und Coaching</h2>
+				<p class="heading__sub-text">
+					Die Bildung ist das höchste Gut und findet in jedem Alter statt. Somit
+					bieten wir ein Gesamtpaket für alle – denn man darf nie aufhören (auch
+					über sich) zu lernen!
+				</p>
+			</div>
+			<div class="bildung__content">
+				<div class="bildung__partner bildung__partner--pink">
+					<img srcset="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/Chiderzytig_mvzeds.png 700w"
+					sizes="(min-width: 767px) 35vw, 75vw"
+					src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/Chiderzytig_mvzeds.png"
+					alt="Chinderzytig logo"
+					class="bildung__logo">
+					<p class="bildung__text">
+						Für die Arbeit im Unterricht: Wir bieten auf
+						<a href="https://www.chinderzytig.ch/" target="_blank" class="bildung__text-link">
+						Chinderzytig</a> zu jedem Artikel passende Unterrichtseinheiten an.
+						Ausserdem fördern wir gemeinsam mit mirroco GmbH das
+						<a href="https://www.chinderzytig.ch/visible-learning/" target="_blank" class="bildung__text-link">
+						Visible Learning</a> und bieten eine Plattform, auf der die Arbeit
+						mit der Chinderzytig sichtbar gemacht wird. Und schliessliech liefern
+						wir Anleitungen für Lehrpersonen, um die Arbeit mit der Chinderzytig
+						über einen längeren Zeitraum qualitativ hochstehend und nach neusten
+						LP21-Erkenntnissen umzusetzen.
+					</p>
+				</div>
+				<div class="bildung__partner">
+					<img srcset="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/avidii_opaefk.png 700w"
+					sizes="(min-width: 767px) 35vw, 75vw"
+					src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/avidii_opaefk.png"
+					alt="avidii logo"
+					class="bildung__logo">
+					<p class="bildung__text">
+						Für Lernhilfe und unmittelbare Unterstützung arbeiten wir mit avidii
+						zusammen. Dies ist eine Plattform aus dem Raum Zürich, die über eine
+						App funktioniert und mit welcher die Schülerinnen und Schüler
+						unmittelbar Lerncoaches für kleinere und grössere Fragen engagieren
+						können. Weitere Auskünfte zu der Vorgehensweise, zu Preisen und
+						Downloadmöglichkeiten finden sich auf der Website von
+						<a href="https://avidii.com" target="_blank" class="bildung__text-link">
+						avidii</a>.
+					</p>
+				</div>
+				<div class="bildung__partner bildung__partner--pink">
+					<img srcset="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/berfungsfinder_ehb4mp.png 700w"
+					sizes="(min-width: 767px) 35vw, 75vw"
+					src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/berfungsfinder_ehb4mp.png"
+					alt="Berufungsfinder logo"
+					class="bildung__logo">
+					<p class="bildung__text">
+						Vertieftes Coaching für junge Menschen, die mit dem Übertritt vom
+						Schulleben ins Erwachsenenleben heraus- und überfordert sind oder
+						auch mit Erwachsenen, die aus Sackgassen herausmöchten oder sich neu
+						orientieren wollen, bietet das Berufungsfinder Coaching an. Ein
+						Angebot, das über den Kopf hinausdenkt und integral sowie intuitiv
+						funktioniert. Weitere Informationen bietet die Website von
+						<a href="https://berufungsfinder.ch/" target="_blank" class="bildung__text-link">
+						Berufungsfinder</a>.
+					</p>
+				</div>
+				<div class="bildung__partner">
+					<img srcset="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/positiveraendere_rjpqt7.png 700w"
+					sizes="(min-width: 767px) 35vw, 75vw"
+					src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,h_150/mana/positiveraendere_rjpqt7.png"
+					alt="positiveraendere logo"
+					class="bildung__logo">
+					<p class="bildung__text">
+						Wenn junge Menschen in einem ganz tiefen Loch stecken, evtl. bereits
+						begleitet werden und gefühlt am Rand stehen, dann wird zuweilen eine
+						Intensivbegleitung nötig. Nebst dem Berufungsfinder bietet eine
+						solche auch das Unternehmen
+						<a href="https://positiveraendere.ch/" target="_blank" class="bildung__text-link">
+						Positiverändere</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+{{ end }}

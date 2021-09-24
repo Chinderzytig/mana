@@ -1,9 +1,11 @@
 <nav class="nav" id="nav">
-	<img src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,w_250/v1617780304/mana/mana-logo_i1mpsg.png" alt="Mana logo" class="nav__logo">
+	<a href="/" class="nav__home">
+		<img src="{{ $.Site.Params.cloudinary_url }}c_scale,q_auto:best,w_250/v1617780304/mana/mana-logo_i1mpsg.png" alt="Mana logo" class="nav__logo">
+	</a>
 	<ul class="nav__list">
-		<li class="nav__item"><a href="#unsere-projekte" class="nav__link">Unsere Projekte</a></li>
-		<li class="nav__item"><a href="#ueber-uns" class="nav__link">Über Uns</a></li>
-		<li class="nav__item"><a href="#kontaktiere-uns" class="nav__link">Kontaktiere Uns</a></li>
+		<li class="nav__item"><a href="{{ $.Site.BaseURL }}#unsere-projekte" class="nav__link">Unsere Projekte</a></li>
+		<li class="nav__item"><a href="{{ $.Site.BaseURL }}#ueber-uns" class="nav__link">Über Uns</a></li>
+		<li class="nav__item"><a href="{{ $.Site.BaseURL }}#kontaktiere-uns" class="nav__link">Kontaktiere Uns</a></li>
 		<li class="nav__item"><a href="https://www.chinderzytig.ch/" target="_blank" class="nav__link--external">zur Chinderzytig</a></li>
 	</ul>
 	<div class="nav__hamburger">
