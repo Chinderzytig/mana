@@ -33,6 +33,8 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+		&-bildung { margin-top: 8rem; }
 	}
 
 	&__primary {
